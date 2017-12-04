@@ -60,7 +60,7 @@ int usrGameController::usrProcessImage(cv::Mat& img)
 }
 
 //鼠标回调函数
-/*void mouseCallback(int event, int x, int y, int flags, void*param)
+*void mouseCallback(int event, int x, int y, int flags, void*param)
 {
 	usrGameController::MouseArgs* m_arg = (usrGameController::MouseArgs*)param;
 	switch (event)
@@ -99,4 +99,4 @@ int usrGameController::usrProcessImage(cv::Mat& img)
 	break;
 	}
 }
-#endif*/
+#endif*
